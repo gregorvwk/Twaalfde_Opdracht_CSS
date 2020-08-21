@@ -1,0 +1,13 @@
+$standardpadding: 20px;
+$background_color: #c0eea9;
+$background_color2: #97d279;
+@mixin strd {
+    max-width: 700px;
+  text-align: center;
+  padding-top: 1em;
+  & p {
+    text-align: justify;
+    padding: $standardpadding;
+    line-height: 1.4em;
+}
+}
